@@ -29,3 +29,10 @@ background-color -> 배경색 정의
 font-family ->글꼴 정의
 주석은 <!---->사용
 <body style="margin: 0"; "padding: 0"; "border: 0">
+
+3월4일 수요일
+
+이미지를 배경으로 삽입하기
+<div>공간 안에다가 style="background-image:url(이미지 위치 입력)"
+이미지를 삽입 할 경우 background-size:cover 를 입력 하면 사진이 공간안에 가득 차게 된다.
+이미지의 위치는 background-position:center 를 입력 하면 사진이 정가운데 위치 하게 된다.
