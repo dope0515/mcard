@@ -36,3 +36,5 @@ font-family ->글꼴 정의
 <div>공간 안에다가 style="background-image:url(이미지 위치 입력)"
 이미지를 삽입 할 경우 background-size:cover 를 입력 하면 사진이 공간안에 가득 차게 된다.
 이미지의 위치는 background-position:center 를 입력 하면 사진이 정가운데 위치 하게 된다.
+사진을 배경으로 선택하고 그 안에 글씨를 넣고 싶으면 다시 <div>로 공간을 만들고
+글씨를 입력하고 위치는 글씨를 넣은 공간에서 padding을 이용해 위치를 조정한다.
