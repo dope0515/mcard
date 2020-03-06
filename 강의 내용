@@ -28,16 +28,39 @@ ex) <!Doctype html>
 background-color -> 배경색 정의
 font-family ->글꼴 정의
 주석은 <!---->사용
-<body style="margin: 0"; "padding: 0"; "border: 0">
+<body style="margin: 0"; "padding: 0"; "border: 0"> 좌우위아래 공백 없애기
 
-3월4일 수요일
+3월6일
+HTML버전
+1. HTML5 -> <!DOCTYPE html.>
+2. HTML 4.01 (strict)
+3. XHTML 1.0 -> 확장 HTML : 스마트 TV 등에서도 HTML이 사용 되게 할 수 있음 (소문자로만 사용해야 함)
 
-이미지를 배경으로 삽입하기
-<div>공간 안에다가 style="background-image:url(이미지 위치 입력)"
-이미지를 삽입 할 경우 background-size:cover 를 입력 하면 사진이 공간안에 가득 차게 된다.
-이미지의 위치는 background-position:center 를 입력 하면 사진이 정가운데 위치 하게 된다.
-사진을 배경으로 선택하고 그 안에 글씨를 넣고 싶으면 다시 <div>로 공간을 만들고
-글씨를 입력하고 위치는 글씨를 넣은 공간에서 padding을 이용해 위치를 조정한다.
-글자간의 높이 간격을 조정 할 때는 style에서 line-height를 이용해 조정한다.
-글씨의 위치 조정은 letter-spacing을 이용해 조정한다.
-<p> 안에서 글씨를 따로 조정 하고 싶을 때 하고싶은 부분 사이에 <span>을 이용한다.
+doctype 별 문법 검사
+https://validator.w3.org/
+
+<head>의 요소
+<title>
+브라우저 탭에서 제목을 정의
+즐겨찾기에 추가 될 때 페이지 제목을 제공
+검색엔진 결과에 페이지 제목을 표시
+
+HTML <meta> 요소
+1. 문자 세트 정의
+<meta charset="UTF=8">
+2. dnpqvpdlwldp eogks tjfaud
+<meta name="description" content="Free Web tutorials">
+3. 검색 엔진에 대한 키워드 정보
+<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+4. 페이지 작성자 정보
+5. 뷰포트 설정(모바일에서 보기 편하게 렌더링 됨)
+
+<link>요소
+<link> 요소는 외부 스타일시트에 연결하는 데 사용
+
+<style> 요소는 단일 HTML 페이지에 대한 스타일 정보를 정의하는 데 사용
+<style>
+body{}
+h1{}
+</style>
+
