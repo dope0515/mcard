@@ -15,29 +15,28 @@
 
 <style>
     body { font-family: 'Yeon Sung'; margin: 0; border: 0; padding: 0; font-size: 14px;}
-    p {font-size: 16px; text-align: center;}
-    h1 {font-size: 65px; font-weight: 100;text-align: center; padding-top: 350px;}
-    h2 {margin-top: 60px; text-align: center;}
+    p {font-size: 18px; text-align: center;}
+    h1 {font-size: 60px; text-align: center;}
+    h2 {line-height: 60px; text-align: center;}
     a { color: white; text-decoration: none; }
-    img,p , ul, li {text-align: center; list-style: none;}
+    p , ul, li {list-style: none;}
     #map {background-color: rgb(128, 118, 118);font-family: 'Teko' ; color: white; margin-bottom: 10%; line-height: 48px; margin-top: -5px;}
-    .sns_ul {background-color: rgb(207, 206, 206); margin: 0; border: 0; padding: 0;}
-    .sns_li {display: inline-block; width: 25%; margin-left: -4px;}
-    .home_date { height: 100vh; width: 100vw; background-image: url(img/flower.png); background-size: cover; background-position: center; margin: 0; border: 0; padding: 0;}
-    .contact_p { color: white; background-color: rgb(84, 100, 84);line-height: 35px; margin-bottom: -14px;}
-    .contact_ul { background-color: rgb(190, 221, 190); padding: 20px;}
-    .contact_li { width: 50%; margin-left: -4px; display: inline-block;}
-    .card_p { font-size: 40px; font-weight: 100; color: rgb(196, 192, 192); letter-spacing: 10px; font-family: 'Dosis'; margin-bottom: -30px;}
+    .sns_ul {background-color: rgb(207, 206, 206); display: flex; justify-content: center; align-items: center; margin: 0; border: 0; padding: 0;}
+    .sns_li { width: 25%;}
+    .home_date { height: 100vh; width: 100vw; background-image: url(img/flower2.png); background-size: cover; background-position: top center;
+                display: flex; justify-content: center; align-items: center; }
+    .contact_p { color: white; background-color: rgb(84, 100, 84);line-height: 35px; }
+    .contact_ul { background-color: rgb(190, 221, 190); display: flex; justify-content: center; align-items: center; height: 200; margin: 0; border: 0; padding: 0;}
+    .contact_li { width: 50%; text-align: center;}
+    .card_p { font-size: 40px; font-weight: 100; color: rgb(196, 192, 192); letter-spacing: 5px; font-family: 'Dosis';}
     .white {color: white;}
-    .height_19 {height="19px"}
-    .width_19 {width="19px"}
+    .height_19 {height: 19px;}
+    .width_19 {width: 19px;}
 </style>
 
 
 <script>
-        function today0306 {
-        document.getElementById("map").innerHTML="Hello Javascript!";    
-        }
+        
 </script>
 
 </head>
@@ -46,10 +45,12 @@
 <!-- 첫페이지 -->
 <body>
 <div class="home_date">
+        <div>
         <h1>우리 결혼합니다</h1>
         <h2>박승주 * 000</h2>
         <p>2020.02.22 SAT 12:00 PM</p> 
         <p>소풍컨벤션웨딩 7층 라온제나홀</p>
+        </div>
 </div> <!-- 첫페이지 닫기-->
 
 <div style="background-color: #fbfbfb;">
@@ -83,9 +84,9 @@
 
     <li class="contact_li">신부측 혼주
         <p>아버지 이중호</p>
-        <img src="img/call25.png" class="weight_19 height_19">&nbsp; | &nbsp;<img src="img/sms25.png" class="weight_19 height_19">
+        <img src="img/call25.png" class="width_19">&nbsp; | &nbsp;<img src="img/sms25.png" class="width_19 ">
         <p>어머니 고영심</p>
-        <img src="img/call25.png" class="weight_19 height_19">&nbsp; | &nbsp;<img src="img/sms25.png" class="weight_19 height_19">
+        <img src="img/call25.png" class="width_19">&nbsp; | &nbsp;<img src="img/sms25.png" class="width_19 ">
     </li>
 
 </ul>
